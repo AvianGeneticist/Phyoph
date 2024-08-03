@@ -1,0 +1,164 @@
+# ANTI-MISSILE
+# Overscaled compared to most, since it has to shoot down drones instead of conventional missiles. Comes in sniper and machine gun flavours.
+
+outfit "Phyoph Flak"
+	category "Turrets"
+	cost 900000
+	thumbnail "outfit/unknown"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"die effect" "phyoph fast anti-missile" 2
+		"anti-missile" 34
+		"velocity" 350
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 11
+		"firing heat" 19
+	description "This is a very fast firing anti-missile designed to break apart microship swarms at close ranges. While each individual shot isn't very effective, the system fires extremely fast, blowing ships out of the sky with clockwork efficiency."
+
+effect "phyoph fast anti-missile"
+	sprite "effect/explosion/tiny"
+		"no repeat"
+		"scale" 0.5
+		"frame rate" 30
+	sound "explosion tiny"
+	"lifetime" 10
+	"random angle" 360
+	"random frame rate" 10
+	"random spin" 1
+	"random velocity" 3
+	"velocity scale" 0.01
+
+outfit "Phyoph Guillotine"
+	category "Turrets"
+	cost 820000
+	thumbnail "outfit/unknown"
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/pug anti-missile"
+		"die effect" "phyoph heavy anti-missile" 1
+		"anti-missile" 421
+		"velocity" 950
+		"lifetime" 1
+		"reload" 40
+		"firing energy" 92
+		"firing heat" 204
+	description "While most species optimize for a balance between fire rate and per-shot effectiveness, with range generally being a happy accident in regards to anti-missiles, long-ranged attackers like the Issilthid mean the Phyoph need an effective deterrent to those at range."
+	description "	While it takes a substantial amount of time to line up its shots, this anti-missile system boasts an extremely powerful pulse, delivering punishing blows even out to ranges past most species' conventional weapons."
+
+effect "phyoph heavy anti-missile"
+	sprite "effect/explosion/small"
+		"no repeat"
+		"frame rate" 20
+	sound "explosion small"
+	"lifetime" 18
+	"random angle" 360
+	"random frame rate" 8
+	"random spin" 2
+	"random velocity" 4
+	"velocity scale" .01
+
+# GENERATORS
+# Pretty unimpressive generators; essentially Korath-tier Hai. They are smaller than most species', however, since the Phyoph rely more on batteries.
+
+outfit "Mana Still Reactor"
+	category "Power"
+	cost 3000000
+	thumbnail "outfit/unknown"
+	"mass" 49
+	"outfit space" -49
+	"energy generation" 8.3
+	"heat generation" 18.3
+	description "Still reactors are highly efficient fission reactors designed to make the most out of their fission-based fuel. They run cooler than other types of reactors, but are not quite as powerful for the space they take up; a fact the Phyoph aren't bothered by, as their ships rely more on batteries to deal with surges of power use."
+
+outfit "Aether Still Reactor"
+	category "Power"
+	cost 9000000
+	thumbnail "outfit/unknown"
+	"mass" 104
+	"outfit space" -104
+	"energy generation" 20.2
+	"heat generation" 37.4
+	description "Still reactors are highly efficient fission reactors designed to make the most out of their fission-based fuel. They run cooler than other types of reactors, but are not quite as powerful for the space they take up; a fact the Phyoph aren't bothered by, as their ships rely more on batteries to deal with surges of power use."
+
+# REPAIR/BATTERIES
+# Charged Armor that uses quite a bit of energy and heat, but acts as a battery.
+
+outfit "Myelin Armor Charger"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 13000
+	"hull repair rate" 1.6
+	"hull energy" 2.4
+	"hull heat" 1.6
+	description "Phyoph ships rely on their shields to dampen enemy blows, but their hulls are what inevitably take the most punishment. Armor Chargers both provide power to localized hull repair measures and store excess for later use."
+
+outfit "Ladderane Armor Charger"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 47
+	"outfit space" -47
+	"energy capacity" 26000
+	"hull repair rate" 3.2
+	"hull energy" 4.8
+	"hull heat" 3.2
+	description "Though Phyoph ships rarely have space for hull repair measures this big, some Phyoph Captains trade off capacity, speed, or firepower to make room to restore their hulls faster."
+
+# COOLING
+# Pretty typical hybrid cooling. Always consumes some energy, but is fairly efficient.
+
+outfit "Heat Exciser"
+	category "Systems"
+	cost 190000
+	thumbnail "outfit/unknown"
+	"mass" 11
+	"outfit space" -11
+	"cooling" 16
+	"active cooling" 20
+	"energy consumption" 0.6
+	"cooling energy" 1.4
+	description "The Phyoph aren't usually in dire need of extreme cooling, but they do make shipboard coolers for the event that such systems are necessary. This cooling system runs in a low power mode by default, but will increase its energy use to cool its host ship if things get too heated."
+
+# ENGINES
+# Reduced outfit space usage, but lower power per engine space as a result. The ultimate for people who want to tank.
+
+outfit "Sayisone Compound Thruster"
+	category "Engines"
+	"cost" 389000
+	thumbnail "outfit/unknown"
+	"mass" 134
+	"outfit space" -108
+	"engine capacity" -134
+	"thrust" 182.1
+	"thrusting energy" 10.1
+	"thrusting heat" 22.9
+	"flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	description "The Sayisone is by far the largest ship the Phyoph possess, and it requires a significant amount of grunt to get moving. At this size, the technologies found in compound engines save a substantial amount of outfit space."
+
+outfit "Sayisone Compound Steering"
+	category "Engines"
+	"cost" 324700
+	thumbnail "outfit/unknown"
+	"mass" 101
+	"outfit space" -85
+	"engine capacity" -106
+	"turn" 5623.6
+	"turning energy" 5.5
+	"turning heat" 15.1
+	"steering flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"steering flare sound" "plasma huge"
+	description

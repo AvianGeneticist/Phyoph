@@ -1,0 +1,6158 @@
+outfit "Lochthren Swarmer"
+	category "Ammunition"
+	cost 100000
+	thumbnail "outfit/lochthren"
+	"mass" 6
+	"lochthren capacity" -1
+	description "For all it offers, the Lochthren is a thoroughly compact package. Its main reactor shaft connects directly to its armament and engines, with support systems laid off to the side. One Lochthren is capable of firing ninety shots before it overheats and enters its terminal phase."
+
+outfit "Lochthren Storage Bay"
+	category "Ammunition"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 8
+	"outfit space" -14
+	"cargo space" -18
+	"lochthren capacity" 4
+	"ammo" "Lochthren Swarmer"
+	description "This is an independent storage bay for Lochthren Swarmers. While it is less outfit space efficient, it can be installed without the support of a preexisting bay, dock, or yard."
+
+outfit "Lochthren Platform Extension"
+	category "Ammunition"
+	cost 300000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -21
+	"cargo space" -51
+	"lochthren capacity" 12
+	"lochthren extensions" -1
+	"ammo" "Lochthren Swarmer"
+	description "This is an add-on to Lochthren deployment platforms to increase their capacity. Each platform can only accept a limited amount of extensions."
+
+outfit "Lochthren Swarmer Bay"
+	category "Secondary Weapons"
+	cost 800000
+	thumbnail "outfit/unknown"
+	"mass" 8
+	"outfit space" -42
+	"weapon capacity" -26
+	"cargo space" -38
+	"gun ports" -1
+	"required crew" 2
+	"lochthren capacity" 12
+	"lochthren extensions" 1
+	weapon
+		"icon" "icon/lochthren"
+		"submunition" "Lochthren Initializing"
+			offset 2 0
+		"submunition" "Lochthren Initializing"
+			offset -2 0
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 40
+		"velocity" 40
+		"lifetime" 1
+		"reload" 900
+		"ammo" "Lochthren Swarmer" 2
+		"burst reload" 20
+		"burst count" 2
+		"firing energy" 58
+		"firing heat" 860
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .05
+		"turn" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 180
+		"cluster"
+	description "This is the smallest platform capable of launching Lochthren-type Swarmer ships. Lochthrens are simple and disposable, even by microship standards. They are typically fired in massive sorties, relying on numbers over their own durability to survive a ship's anti-missile systems. To accommodate these massive numbers, a majority of the swarmers are stored in the ship's cargo hold."
+	description "Lochthren Swarmers are equipped with medium-ranged ion weaponry. Their pulses are relatively ineffective against hull and lack the power to jam enemy weapons, but deal extra damage over time to shields and can impart a substantial amount of ion damage onto a target if employed in great numbers. When Lochthrens begin to overheat after firing for an extended period of time, they accelerate to ramming speed and attempt to detonate their reactor, causing a substantial area of effect blast with a noticeable EMP effect. Their primitive AI prevents them from acquiring additional targets."
+
+outfit "Lochthren Swarmer Dock"
+	category "Secondary Weapons"
+	cost 2500000
+	thumbnail "outfit/unknown"
+	"mass" 14
+	"outfit space" -82
+	"weapon capacity" -54
+	"cargo space" -124
+	"gun ports" -1
+	"required crew" 8
+	"lochthren capacity" 32
+	"lochthren extensions" 3
+	weapon
+		"icon" "icon/lochthren"
+		"submunition" "Lochthren Initializing"
+			offset 2 0
+		"submunition" "Lochthren Initializing"
+			offset -2 0
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 40
+		"velocity" 40
+		"lifetime" 1
+		"reload" 450
+		"ammo" "Lochthren Swarmer" 2
+		"burst reload" 15
+		"burst count" 4
+		"firing energy" 58
+		"firing heat" 860
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .05
+		"turn" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 180
+		"cluster"
+	description "This is a medium-sized Lochthren Swarmer deployment platform that launches sorties of eight swarmers over the smaller iteration's four. Deployed in such numbers, Lochthrens can be a significant threat, even to ships with strong regeneration capabilities. This larger bay makes more effective use of a ship's cargo hold to facilitate storage of a staggering quantity of Lochthrens."
+	description "Lochthren Swarmers are equipped with medium-ranged ion weaponry. Their pulses are relatively ineffective against hull and lack the power to jam enemy weapons, but deal extra damage over time to shields and can impart a substantial amount of ion damage onto a target if employed in great numbers. When Lochthrens begin to overheat after firing for an extended period of time, they accelerate to ramming speed and attempt to detonate their reactor, causing a substantial area of effect blast with a noticeable EMP effect. Their primitive AI prevents them from acquiring additional targets."
+
+outfit "Lochthren Swarmer Yard"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 22
+	"outfit space" -124
+	"weapon capacity" -82
+	"cargo space" -256
+	"gun ports" -1
+	"required crew" 24
+	"lochthren capacity" 60
+	"lochthren extensions" 6
+	weapon
+		"icon" "icon/lochthren"
+		"submunition" "Lochthren Initializing"
+			offset 3 0
+		"submunition" "Lochthren Initializing"
+			offset 0 0
+		"submunition" "Lochthren Initializing"
+			offset -3 0
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 40
+		"velocity" 40
+		"lifetime" 1
+		"reload" 450
+		"ammo" "Lochthren Swarmer" 3
+		"burst reload" 15
+		"burst count" 4
+		"firing energy" 87
+		"firing heat" 1290
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .05
+		"turn" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 180
+		"cluster"
+	description "This is a practically a portable shipyard, capable of being mounted on only the largest of ships due to its space requirements for typical operation. Firing a dozen Lochthren Swarmers with every sortie, this is the largest deployment platform the Lochthren can be loosed from."
+	description "Lochthren Swarmers are equipped with medium-ranged ion weaponry. Their pulses are relatively ineffective against hull and lack the power to jam enemy weapons, but deal extra damage over time to shields and can impart a substantial amount of ion damage onto a target if employed in great numbers. When Lochthrens begin to overheat after firing for an extended period of time, they accelerate to ramming speed and attempt to detonate their reactor, causing a substantial area of effect blast with a noticeable EMP effect. Their primitive AI prevents them from acquiring additional targets."
+
+outfit "Lochthren Pulse"
+	weapon
+		sprite "projectile/ion rain"
+			"frame rate" 5
+			"random start frame"
+		sound "repeater"
+		"hit effect" "ion rain impact"
+		"inaccuracy" 3
+		"velocity" 15
+		"lifetime" 36
+		"shield damage" 13.8
+		"discharge damage" 0.20
+		"ion damage" 1.2
+		"hull damage" 6.3
+
+outfit "Lochthren Initializing"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 1"
+		"lifetime" 180
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .025
+		"turn" 6
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"split range" 500
+		"missile strength" 180
+
+outfit "Lochthren Stage 1"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 2"
+		"lifetime" 45
+		"velocity" -20
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 2"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 3"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 3"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 4"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 4"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 5"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 5"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 6"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 6"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 7"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 7"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 8"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 8"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 9"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 9"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 10"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 10"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 11"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 11"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 12"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 12"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 13"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 13"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 14"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 14"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 15"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 15"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 16"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 16"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 17"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 17"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 18"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 18"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 19"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 19"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 20"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 20"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 21"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 21"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 22"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 22"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 23"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 23"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 24"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 24"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 25"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 25"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 26"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 26"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 27"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 27"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 28"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 28"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 29"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 29"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 30"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 30"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 31"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 31"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 32"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 32"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 33"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 33"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 34"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 34"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 35"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 35"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 36"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 36"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 37"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 37"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 38"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 38"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 39"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 39"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 40"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 40"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 41"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 41"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 42"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 42"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 43"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 43"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 44"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 44"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 45"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 45"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 46"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 46"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 47"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 47"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 48"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 48"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 49"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 49"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 50"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 50"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 51"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 51"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 52"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 52"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 53"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 53"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 54"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 54"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 55"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 55"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 56"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 56"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 57"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 57"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 58"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 58"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 59"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 59"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 60"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 60"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 61"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 61"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 62"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 62"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 63"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 63"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 64"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 64"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 65"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 65"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 66"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 66"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 67"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 67"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 68"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 68"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 69"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 69"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 70"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 70"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 71"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 71"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 72"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 72"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 73"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 73"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 74"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 74"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 75"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 75"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 76"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 76"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 77"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 77"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 78"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 78"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 79"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 79"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 80"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 80"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 81"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 81"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 82"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 82"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 83"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 83"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 84"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 84"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 85"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 85"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 86"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 86"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 87"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 87"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 88"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 88"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Stage 89"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Stage 89"
+	weapon
+		sprite "projectile/lochthren"
+		"submunition" "Lochthren Pulse"
+		"submunition" "Lochthren Termination"
+		"lifetime" 45
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 2
+		"drag" .1
+		"turn" 12
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -13.8
+		"discharge damage" -0.20
+		"ion damage" -1.2
+		"hull damage" -6.3
+		"missile strength" 180
+
+outfit "Lochthren Termination"
+	weapon
+		sprite "projectile/lochthren"
+		"hit effect" "large explosion"
+		"hit effect" "emp ring" 25
+		"hit effect" "emp spark" 10
+		"lifetime" 135
+		"random velocity" 20
+		"homing" 3
+		"infrared tracking" 0.3
+		"radar tracking" 0.9
+		"optical tracking" 0.6
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 8
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"fused"
+		"blast radius" 175
+		"trigger radius" 75
+		"shield damage" 240
+		"discharge damage" 7
+		"scrambling damage" 18
+		"ion damage" 30
+		"hull damage" 120
+		"missile strength" 180
+
+outfit "Ormthon Bomber"
+	category "Ammunition"
+	cost 175000
+	thumbnail "outfit/ormthon"
+	"mass" 9.5
+	"ormthon capacity" -1
+	description "Ormthon Bombers are designed to approach a target and douse it with torpedoes before it can mount an effective offense. One Ormthon only carries fourteen shots, but each one will put an immense degree of hurt on enemy ships."
+
+outfit "Ormthon Storage Bay"
+	category "Ammunition"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"mass" 10.5
+	"outfit space" -16
+	"cargo space" -23
+	"ormthon capacity" 3
+	"ammo" "Ormthon Bomber"
+	description "Ormthon Bombers don't rely on numbers in the same way smaller microships do, but this storage bay will store an extra trio for use in battle."
+
+outfit "Ormthon Platform Extension"
+	category "Ammunition"
+	cost 600000
+	thumbnail "outfit/unknown"
+	"mass" 12.5
+	"outfit space" -21
+	"cargo space" -51
+	"ormthon capacity" 7
+	"ormthon extensions" -1
+	"ammo" "Ormthon Bomber"
+	description "This large platform extension is designed particularly for large capital ships employing full-sized Ormthon Yards. Each Extension holds a full sortie of seven Ormthon Bombers."
+
+outfit "Ormthon Bomber Bay"
+	category "Secondary Weapons"
+	cost 1250000
+	thumbnail "outfit/unknown"
+	"mass" 12.5
+	"outfit space" -58
+	"weapon capacity" -38
+	"cargo space" -97
+	"gun ports" -1
+	"required crew" 5
+	"ormthon capacity" 15
+	"ormthon extensions" 2
+	weapon
+		"icon" "icon/ormthon"
+		"submunition" "Ormthon Initializing"
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 30
+		"velocity" 30
+		"lifetime" 1
+		"reload" 600
+		"ammo" "Ormthon Bomber"
+		"burst reload" 20
+		"burst count" 3
+		"firing energy" 36
+		"firing heat" 630
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 250
+		"cluster"
+	description "This a smaller deployment platform for Ormthon Bombers, firing sorties of just three such ships. It shouldn't be underestimated, however; when given effective support, or simply fielded by multiple bays, the deluge of mini-torpedoes can rip apart even large ships surprisingly quickly."
+	description "Ormthon Bombers are equipped with mini-torpedo launchers that offer balanced performance, with slightly improved effect against ship hulls. While one Ormthon is rarely an issue, a sustained barrage from a sortie of them will put severe pressure on most ships. Their thick armor and basic shielding also makes them significantly difficult to destroy, even for high-powered anti-missile turrets. Their torpedoes are thankfully much easier to shoot down, though at the close ranges they're fired from they can often slip past some slower defensive turrets."
+
+outfit "Ormthon Bomber Yard"
+	category "Secondary Weapons"
+	cost 4500000
+	thumbnail "outfit/unknown"
+	"mass" 24
+	"outfit space" -136
+	"weapon capacity" -94
+	"cargo space" -287
+	"gun ports" -1
+	"required crew" 27
+	"ormthon capacity" 42
+	"ormthon extensions" 5
+	weapon
+		"icon" "icon/ormthon"
+		"submunition" "Ormthon Initializing"
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 30
+		"velocity" 30
+		"lifetime" 1
+		"reload" 257.14
+		"ammo" "Ormthon Bomber"
+		"burst reload" 20
+		"burst count" 7
+		"firing energy" 36
+		"firing heat" 630
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 250
+		"cluster"
+	description "This a larger deployment platform for Ormthon Bombers. Firing seven bombers at once makes this bay horrifically effective against capital ships, but their slower speed makes them worse against faster targets."
+	description "Ormthon Bombers are equipped with mini-torpedo launchers that offer balanced performance, with slightly improved effect against ship hulls. While one Ormthon is rarely an issue, a sustained barrage from a sortie of them will put severe pressure on most ships. Their thick armor and basic shielding also makes them significantly difficult to destroy, even for high-powered anti-missile turrets. Their torpedoes are thankfully much easier to shoot down, though at the close ranges they're fired from they can often slip past some slower defensive turrets."
+
+outfit "Ormthon Torpedo"
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "repeater"
+		"hit effect" "small explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 3
+		"velocity" 13
+		"lifetime" 300
+		"homing" 3
+		"radar tracking" 0.4
+		"optical tracking" 0.8
+		"acceleration" 1.3
+		"drag" .1
+		"turn" 5
+		"shield damage" 310
+		"hull damage" 360
+		"missile strength" 28
+
+outfit "Ormthon Initializing"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 1"
+		"lifetime" 240
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 4
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -385
+		"hull damage" -435
+		"split range" 400
+		"missile strength" 250
+
+outfit "Ormthon Stage 1"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 2"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 2"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 3"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 3"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 4"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 4"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 5"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 5"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 6"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 6"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 7"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 7"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 8"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 8"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 9"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 9"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 10"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 10"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 11"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 11"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 12"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 12"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Stage 13"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Stage 13"
+	weapon
+		sprite "projectile/ormthon"
+		"submunition" "Ormthon Torpedo"
+		"submunition" "Ormthon Termination"
+		"lifetime" 285
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .12
+		"turn" 5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -310
+		"hull damage" -360
+		"missile strength" 250
+
+outfit "Ormthon Termination"
+	weapon
+		sprite "projectile/ormthon"
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 10
+		"hit effect" "emp spark" 20
+		"lifetime" 180
+		"random velocity" 18
+		"homing" 3
+		"infrared tracking" 0.2
+		"radar tracking" 0.6
+		"optical tracking" 0.95
+		"acceleration" 1.8
+		"drag" .03
+		"turn" 6.5
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"fused"
+		"blast radius" 150
+		"trigger radius" 60
+		"shield damage" 840
+		"hull damage" 780
+		"missile strength" 250
+
+outfit "Issilthid Carrier"
+	category "Ammunition"
+	cost 175000
+	thumbnail "outfit/issilthid"
+	"mass" 24 # Only uses 19 tons of space in storages. The extra mass is accounted for by the description.
+	"issilthid capacity" -1
+	description "Though somewhat unsightly to look at and a pain to haul around, Issilthids are prime displays of extremely brutal and effective engineering. During storage, their innards are tightly packed, but as they're activated prior to launch, their hardpoint platforms extend from the hull slightly to give the carrier's internals more room to breathe as it assembles its sorties of Recompt Swarmers. This packing mechanism allows them to take up less space, but also means a large complement of waiting Issilthids will more thoroughly bog down their host ship. Each Issilthid carries a whopping six Recompts."
+
+outfit "Issilthid Carrier Dock"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 26
+	"outfit space" -104
+	"weapon capacity" -67
+	"cargo space" -122
+	"gun ports" -1
+	"required crew" 12
+	"issilthid capacity" 10
+	"issilthid extensions" 3
+	weapon
+		"icon" "icon/issilthid"
+		"submunition" "Issilthid Initializing"
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 30
+		"velocity" 30
+		"lifetime" 1
+		"reload" 900
+		"ammo" "Issilthid Carrier"
+		"burst reload" 45
+		"burst count" 2
+		"firing energy" 36
+		"firing heat" 630
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 1.4
+		"drag" .1
+		"turn" 1
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 380
+		"cluster"
+	description `Though to most humans this is a colossal section of ship to reserve for one "weapon", the Issilthid-class Carriers that this medium-sized dock operates demand such space. Fired in sequential pairs, the Issilthids act as a surprisingly effective interdiction squad, especially once they deploy their Recompt-class Subswarmers to drain their targets' fuel.`
+	description "Issilthid Carriers are the full package, in more ways than one. They carry two miniaturized mortars that can bombard targets from a distance and reduce the effectiveness of their engines, all while producing sorties of Recompt-class Subswarmers that utilize tiny needle guns to puncture their targets' hulls to drain fuel. While the Recompts are noticeably frail, the Issilthids can resist a frightening amount of punishment thanks to their on-board miniature shield generators. As if that wasn't bad enough, they also possess sophisticated sensor arrays that can function without any sort of conventional tell."
+
+outfit "Issilthid Carrier Yard"
+	category "Secondary Weapons"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"mass" 32
+	"outfit space" -250
+	"weapon capacity" -174
+	"cargo space" -352
+	"gun ports" -1
+	"required crew" 38
+	"issilthid capacity" 30
+	"issilthid extensions" 6
+	weapon
+		"icon" "icon/issilthid"
+		"submunition" "Issilthid Initializing"
+		"inaccuracy" 0.5
+		"range override" 6000
+		"velocity override" 30
+		"velocity" 30
+		"lifetime" 1
+		"reload" 900
+		"ammo" "Issilthid Carrier"
+		"burst reload" 20
+		"burst count" 5
+		"firing energy" 36
+		"firing heat" 630
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 1.4
+		"drag" .1
+		"turn" 1
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 380
+		"cluster"
+	description `This is the largest deployment platform ever designed by the Phyoph, fittingly serving their Issilthid-class Carriers. Deploying sorties of five such carriers, this on-board shipyard is capable of great damage output, though of course can only be effectively utilized aboard truly huge ships.`
+	description "Issilthid Carriers are the full package, in more ways than one. They carry two miniaturized mortars that can bombard targets from a distance and reduce the effectiveness of their engines, all while producing sorties of Recompt-class Subswarmers that utilize tiny needle guns to puncture their targets' hulls to drain fuel. While the Recompts are noticeably frail, the Issilthids can resist a frightening amount of punishment thanks to their on-board miniature shield generators. As if that wasn't bad enough, they also possess sophisticated sensor arrays that can function without any sort of conventional tell."
+
+outfit "Issilthid Spin"
+	weapon
+		"submunition" "Issilthid Shell"
+		"inaccuracy" 0.3
+		"acceleration" 0.01
+		"drag" 0.01
+		"turn" 120
+		"tracking" 1
+		"homing" 2
+		"lifetime" 3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "Issilthid Shell"
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		"hit effect" "plasma explosion"
+		"inaccuracy" 0.3
+		"velocity" 42
+		"lifetime" 28
+		"shield damage" 165
+		"hull damage" 130
+		"slowing damage" 2.5
+
+outfit "Issilthid Initializing"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Sortie 1"
+		"submunition" "Recompt Initializing"
+		"lifetime" 300
+		"random velocity" 10
+		"inaccuracy" 10
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.8
+		"drag" .05
+		"turn" .6
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"split range" 800
+		"missile strength" 380
+
+outfit "Issilthid Sortie 1"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Stage 1"
+		"submunition" "Recompt Initializing"
+		"lifetime" 30
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 380
+
+outfit "Issilthid Stage 1"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 2"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 2"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 3"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Stage 3"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 4"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Stage 4"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Sortie 2"
+		"submunition" "Recompt Initializing"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Sortie 2"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Stage 5"
+		"submunition" "Recompt Initializing"
+		"lifetime" 30
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 380
+
+outfit "Issilthid Stage 5"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 6"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 6"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 7"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Stage 7"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 8"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Stage 8"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Sortie 3"
+		"submunition" "Recompt Initializing"
+		"lifetime" 300
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -2.5
+		"missile strength" 380
+
+outfit "Issilthid Sortie 3"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Stage 9"
+		"submunition" "Recompt Initializing"
+		"lifetime" 30
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"missile strength" 380
+
+outfit "Issilthid Stage 9"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 10"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 10"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 11"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 11"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 12"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 12"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 13"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 13"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 14"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 14"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Stage 15"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Stage 15"
+	weapon
+		sprite "projectile/issilthid"
+		"submunition" "Issilthid Spin"
+			"offset" 0 3
+		"submunition" "Issilthid Spin"
+			"offset" 0 -3
+		"submunition" "Issilthid Termination"
+		"lifetime" 270
+		"random velocity" 1
+		"homing" 2
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.65
+		"drag" .05
+		"turn" 1.3
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -330
+		"hull damage" -260
+		"slowing damage" -5
+		"missile strength" 380
+
+outfit "Issilthid Termination"
+	weapon
+		sprite "projectile/ormthon"
+		"hit effect" "nuke explosion" 2
+		"hit effect" "emp ring" 15
+		"hit effect" "emp spark" 25
+		"lifetime" 180
+		"random velocity" 18
+		"homing" 3
+		"infrared tracking" 0.1
+		"radar tracking" 0.7
+		"optical tracking" 0.45
+		"tracking" 0.4
+		"acceleration" 0.9
+		"drag" .05
+		"turn" 2.2
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"fused"
+		"blast radius" 190
+		"trigger radius" 85
+		"shield damage" 1440
+		"hull damage" 1280
+		"missile strength" 310
+
+#====================================================
+# RECOMPTS
+#====================================================
+
+outfit "Recompt Needle"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 6.5
+		"velocity" 22
+		"lifetime" 22
+		"shield damage" 2.6
+		"hull damage" 4.2
+		"fuel damage" 2
+
+outfit "Recompt Initializing"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 1"
+		"lifetime" 60
+		"random velocity" 6
+		"inaccuracy" 10
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.8
+		"drag" .03
+		"turn" 8
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"split range" 250
+		"missile strength" 105
+
+outfit "Recompt Stage 1"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 2"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 2"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 3"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 3"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 4"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 4"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 5"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 5"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 6"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 6"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 7"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 7"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 8"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 8"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 9"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 9"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 10"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 10"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 11"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 11"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 12"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 12"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 13"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 13"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 14"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 14"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 15"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 15"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 16"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 16"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 17"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 17"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 18"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 18"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 19"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 19"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 20"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 20"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 21"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 21"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 22"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 22"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 23"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 23"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 24"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 24"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 25"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 25"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 26"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 26"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 27"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 27"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 28"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 28"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 29"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 29"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 30"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 30"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 31"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 31"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 32"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 32"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 33"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 33"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 34"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 34"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 35"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 35"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 36"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 36"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 37"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 37"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 38"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 38"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 39"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 39"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 40"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 40"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 41"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 41"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 42"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 42"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 43"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 43"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 44"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 44"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 45"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 45"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 46"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 46"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 47"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 47"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 48"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 48"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 49"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 49"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 50"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 50"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 51"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 51"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 52"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 52"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 53"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 53"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 54"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 54"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 55"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 55"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 56"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 56"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 57"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 57"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 58"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 58"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 59"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 59"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 60"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 60"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 61"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 61"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 62"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 62"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 63"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 63"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 64"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 64"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 65"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 65"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 66"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 66"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 67"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 67"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 68"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 68"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 69"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 69"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 70"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 70"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 71"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 71"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 72"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 72"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 73"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 73"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 74"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 74"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 75"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 75"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 76"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 76"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 77"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 77"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 78"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 78"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 79"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 79"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 80"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 80"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 81"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 81"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 82"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 82"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 83"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 83"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 84"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 84"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 85"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 85"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 86"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 86"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 87"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 87"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 88"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 88"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 89"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 89"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 90"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 90"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 91"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 91"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 92"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 92"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 93"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 93"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 94"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 94"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 95"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 95"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 96"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 96"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 97"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 97"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 98"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 98"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 99"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 99"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 100"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 100"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 101"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 101"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 102"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 102"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 103"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 103"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 104"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 104"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 105"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 105"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 106"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 106"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 107"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 107"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 108"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 108"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 109"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 109"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 110"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 110"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 111"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 111"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 112"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 112"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 113"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 113"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 114"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 114"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 115"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 115"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 116"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 116"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 117"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 117"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 118"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 118"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 119"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 119"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 120"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 120"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 121"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 121"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 122"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 122"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 123"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 123"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 124"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 124"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 125"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 125"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 126"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 126"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 127"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 127"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 128"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 128"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 129"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 129"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 130"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 130"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 131"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 131"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 132"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 132"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 133"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 133"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Stage 134"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Stage 134"
+	weapon
+		sprite "projectile/recompt"
+		"submunition" "Recompt Needle"
+		"submunition" "Recompt Termination"
+		"lifetime" 20
+		"random velocity" 6
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.4
+		"drag" .05
+		"turn" 15
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"shield damage" -2.6
+		"hull damage" -4.2
+		"fuel damage" -2
+		"missile strength" 105
+
+outfit "Recompt Termination"
+	weapon
+		sprite "projectile/recompt"
+		"hit effect" "medium explosion"
+		"hit effect" "emp spark" 20
+		"lifetime" 90
+		"random velocity" 30
+		"homing" 3
+		"radar tracking" 0.7
+		"optical tracking" 0.2
+		"acceleration" 2.8
+		"drag" .05
+		"turn" 13
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+		"fused"
+		"blast radius" 110
+		"trigger radius" 45
+		"shield damage" 200
+		"hull damage" 260
+		"missile strength" 105

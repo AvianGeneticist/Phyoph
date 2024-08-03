@@ -1,0 +1,73 @@
+shipyard "everything"
+	"Sayisone"
+
+ship "Sayisone"
+	sprite "ship/bactrian"
+	thumbnail "thumbnail/bactrian"
+	attributes
+		category "Superheavy"
+		"cost" 17600000
+		"shields" 15800
+		"hull" 58600
+		"required crew" 141
+		"bunks" 662
+		"mass" 4300
+		"drag" 61.6
+		"heat dissipation" .14
+		"fuel capacity" 1200
+		"cargo space" 1530
+		"outfit space" 1140
+		"weapon capacity" 580
+		"engine capacity" 245
+		"shield generation" 6.1
+		"shield energy" 6.1
+		"shield heat" 9.15
+		weapon
+			"blast radius" 340
+			"shield damage" 3800
+			"hull damage" 2000
+			"hit force" 4500
+	outfits
+		"Phyoph Flak" 2
+		"Phyoph Guillotine"
+
+		"Lochthren Swarmer Dock" 2
+		"Ormthon Bomber Bay"
+		"Ormthon Bomber Yard"
+		"Issilthid Carrier Yard"
+		"Ormthon Bomber" 57
+		"Lochthren Swarmer" 64
+		"Issilthid Carrier" 30
+
+		"Heat Exciser"
+		"Ladderane Armor Charger"
+		"Aether Still Reactor"
+
+		"Sayisone Compound Thruster"
+		"Sayisone Compound Steering"
+		"Hyperdrive"
+		
+	engine 18.5 232
+	engine -15 232
+	gun 40 -191.5
+		"angle" -45
+	gun 64.5 -107.5
+		"angle" 45
+	gun -54 -65
+		"angle" -45
+	gun -60.5 64.5
+		"angle" 45
+	gun 63.5 124.5
+		"angle" 90
+	turret 37 -132.5
+	turret 31.5 -26
+	turret -33.5 192.5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "The Sayisone is the largest ship the Phyoph use. Specifically designed with large microship deployment platforms in mind, its gargantuan holds are rivaled by very few other ships in the galaxy."
