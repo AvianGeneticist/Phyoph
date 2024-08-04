@@ -1,5 +1,68 @@
-shipyard "everything"
-	"Sayisone"
+ship "Auchfel"
+	sprite "ship/auchfel"
+	thumbnail "thumbnail/auchfel"
+	attributes
+		category "Utility"
+		"cost" 9600000
+		"shields" 4800
+		"hull" 18900
+		"required crew" 22
+		"bunks" 94
+		"mass" 1110
+		"drag" 12.6
+		"heat dissipation" .37
+		"fuel capacity" 600
+		"cargo space" 510
+		"outfit space" 510
+		"weapon capacity" 225
+		"engine capacity" 110
+		"shield generation" 2.4
+		"shield energy" 2.4
+		"shield heat" 3.6
+		weapon
+			"blast radius" 120
+			"shield damage" 1800
+			"hull damage" 1000
+			"hit force" 2500
+	outfits
+		"Phyoph Flak"
+		"Phyoph Guillotine"
+
+		"Lochthren Swarmer Dock"
+		"Lochthren Swarmer Bay"
+		"Ormthon Bomber Bay"
+		"Lochthren Platform Extension"
+		"Ormthon Platform Extension"
+		"Lochthren Swarmer" 56
+		"Ormthon Bomber" 22
+
+		"Myelin Armor Charger"
+		"Mana Still Reactor"
+
+		"Auchfel Compound Thruster"
+		"Auchfel Compound Steering"
+		"Hyperdrive"
+		
+	engine -12 156
+		zoom 0.7
+	engine 12 156
+		zoom 0.7
+	gun 0 -130.5
+	gun -12.5 -64.5
+		"angle" -45
+	gun 12.5 -64.5
+		"angle" 45
+	turret 0 -97 "Phyoph Flak"
+	turret 0 138 "Phyoph Guillotine"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description
 
 ship "Sayisone"
 	sprite "ship/bactrian"

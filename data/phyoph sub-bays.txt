@@ -2666,6 +2666,29 @@ outfit "Issilthid Carrier"
 	"issilthid capacity" -1
 	description "Though somewhat unsightly to look at and a pain to haul around, Issilthids are prime displays of extremely brutal and effective engineering. During storage, their innards are tightly packed, but as they're activated prior to launch, their hardpoint platforms extend from the hull slightly to give the carrier's internals more room to breathe as it assembles its sorties of Recompt Swarmers. This packing mechanism allows them to take up less space, but also means a large complement of waiting Issilthids will more thoroughly bog down their host ship. Each Issilthid carries a whopping six Recompts."
 
+outfit "Issilthid Storage Dock"
+	category "Ammunition"
+	cost 400000
+	thumbnail "outfit/unknown"
+	"mass" 16
+	"outfit space" -19
+	"cargo space" -35
+	"issilthid capacity" 2
+	"ammo" "Issilthid Carrier"
+	description "Because of their size, hauling even two Issilthid-class carriers requires a lot of space and hardware to ensure they don't shift in spaceflight. Thankfully, Issilthids make the most of their extra space requirements."
+
+outfit "Issilthid Platform Extension"
+	category "Ammunition"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 21
+	"outfit space" -30
+	"cargo space" -86
+	"issilthid capacity" 5
+	"issilthid extensions" -1
+	"ammo" "Issilthid Carrier"
+	description "Carrying five Issilthids is a tall order for a typical storage system; thankfully, this platform extension needs less outfit space thanks to being attached to preexisting infrastructure."
+
 outfit "Issilthid Carrier Dock"
 	category "Secondary Weapons"
 	cost 2000000

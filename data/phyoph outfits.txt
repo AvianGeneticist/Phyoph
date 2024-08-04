@@ -12,12 +12,12 @@ outfit "Phyoph Flak"
 	weapon
 		"hardpoint sprite" "hardpoint/pug anti-missile"
 		"die effect" "phyoph fast anti-missile" 2
-		"anti-missile" 34
+		"anti-missile" 26
 		"velocity" 350
 		"lifetime" 1
-		"reload" 3
-		"firing energy" 11
-		"firing heat" 19
+		"reload" 4
+		"firing energy" 12
+		"firing heat" 21
 	description "This is a very fast firing anti-missile designed to break apart microship swarms at close ranges. While each individual shot isn't very effective, the system fires extremely fast, blowing ships out of the sky with clockwork efficiency."
 
 effect "phyoph fast anti-missile"
@@ -37,19 +37,19 @@ outfit "Phyoph Guillotine"
 	category "Turrets"
 	cost 820000
 	thumbnail "outfit/unknown"
-	"mass" 49
-	"outfit space" -49
-	"weapon capacity" -49
+	"mass" 47
+	"outfit space" -47
+	"weapon capacity" -47
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/pug anti-missile"
 		"die effect" "phyoph heavy anti-missile" 1
-		"anti-missile" 421
+		"anti-missile" 381
 		"velocity" 950
 		"lifetime" 1
-		"reload" 40
-		"firing energy" 92
-		"firing heat" 204
+		"reload" 60
+		"firing energy" 102
+		"firing heat" 231
 	description "While most species optimize for a balance between fire rate and per-shot effectiveness, with range generally being a happy accident in regards to anti-missiles, long-ranged attackers like the Issilthid mean the Phyoph need an effective deterrent to those at range."
 	description "	While it takes a substantial amount of time to line up its shots, this anti-missile system boasts an extremely powerful pulse, delivering punishing blows even out to ranges past most species' conventional weapons."
 
@@ -133,6 +133,36 @@ outfit "Heat Exciser"
 # ENGINES
 # Reduced outfit space usage, but lower power per engine space as a result. The ultimate for people who want to tank.
 
+outfit "Auchfel Compound Thruster"
+	category "Engines"
+	"cost" 389000
+	thumbnail "outfit/unknown"
+	"mass" 61
+	"outfit space" -49
+	"engine capacity" -61
+	"thrust" 79.2
+	"thrusting energy" 4.2
+	"thrusting heat" 7.4
+	"flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	description "Compound Engines are generally quite small, but work in a way that puts a lot of stress on a ship's engine architecture. The result is that Compound Engines take up more engine space than they ought to; however, the Phyoph prefer to consider the effect a saving of outfit space instead."
+
+outfit "Auchfel Compound Steering"
+	category "Engines"
+	"cost" 324700
+	thumbnail "outfit/unknown"
+	"mass" 47
+	"outfit space" -38
+	"engine capacity" -47
+	"turn" 2361.2
+	"turning energy" 2.1
+	"turning heat" 4.8
+	"steering flare sprite" "effect/plasma flare/medium"
+		"frame rate" 9
+	"steering flare sound" "plasma medium"
+	description "Because their microships come entirely prefabricated, this is the smallest set of compound engines the Phyoph produce and sell. Its space-saving qualities allow ships it is installed on to carry extra equipment."
+
 outfit "Sayisone Compound Thruster"
 	category "Engines"
 	"cost" 389000
@@ -157,7 +187,7 @@ outfit "Sayisone Compound Steering"
 	"engine capacity" -106
 	"turn" 5623.6
 	"turning energy" 5.5
-	"turning heat" 15.1
+	"turning heat" 14.1
 	"steering flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"steering flare sound" "plasma huge"
